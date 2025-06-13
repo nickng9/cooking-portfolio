@@ -1,0 +1,9 @@
+# Node dependencies
+node_modules/
+
+# Next.js build output
+.next/
+
+# Optional: OS and editor files
+.DS_Store
+.vscode/
