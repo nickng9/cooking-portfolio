@@ -1,0 +1,20 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* needed because markup uses .prose classes */
+.prose :where(p):not(:where([class~="not-prose"] *)) {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* utility used in tables */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* print background tweak for gradient header overlap (optional feel-good defaults) */
+@media (prefers-color-scheme: light) {
+  body { color: #111; background: #fff; }
+}

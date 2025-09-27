@@ -1,9 +1,6 @@
-# Node dependencies
-node_modules/
-
-# Next.js build output
-.next/
-
-# Optional: OS and editor files
+# .gitignore
+node_modules
+dist
+.vite
 .DS_Store
-.vscode/
+.env
